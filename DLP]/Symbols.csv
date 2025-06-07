@@ -1,0 +1,107 @@
+image_path,label,solution
+engine_warning_light.png,0,"Check Engine Warning
+Description:
+The ""Check Engine"" light signals a potential issue with your vehicle's engine or related systems. Ignoring this warning can lead to serious problems.
+
+Possible Issues:
+
+Faulty Oxygen Sensor: Affects fuel efficiency and emissions.
+Loose/Damaged Gas Cap: Causes fuel vapors to escape; often an easy fix.
+Catalytic Converter Problems: Impacts engine performance and increases emissions.
+Mass Airflow Sensor Failure: Leads to poor acceleration and fuel consumption.
+Spark Plug/Ignition Coil Issues: Can cause engine misfires and reduce performance.
+EGR System Failure: Increases emissions and affects engine efficiency.
+Engine Mechanical Issues: May indicate internal damage or component failure.
+Recommended Actions:
+
+Consult a Mechanic: Get a diagnostic check to identify the issue.
+Avoid Long Distances: If the light is flashing, do not drive until inspected.
+Monitor Performance: Report any unusual changes to your mechanic.
+Regular Maintenance: Keep up with maintenance to prevent issues."
+oil_pressure.png,1,"Low Oil Pressure Warning
+Description:
+The ""Low Oil Pressure"" warning indicates insufficient oil pressure in your engine, which can cause severe engine damage if not addressed promptly.
+
+Possible Causes:
+
+Low Oil Levels: The engine may be running low on oil, leading to inadequate lubrication.
+Old or Dirty Oil: Oil that's too old or contaminated may not flow properly.
+Oil Pump Failure: A malfunctioning oil pump can prevent oil from circulating through the engine.
+Recommended Actions:
+
+Check Oil Levels: Immediately check the oil level using the dipstick. Top it up if it's low.
+Change Oil: If the oil is dirty or overdue for a change, replace it.
+Consult a Mechanic: If the warning persists, have the oil pressure system checked for further issues."
+battery.png,2,"Battery Warning
+Description:
+The ""Battery"" warning light signals a charging issue, which may lead to your car losing power if not resolved.
+
+Possible Causes:
+
+Battery Issues: The battery might be weak, dead, or failing to hold a charge.
+Alternator Problems: A faulty alternator may not be properly charging the battery.
+Loose or Corroded Connections: Battery terminals may be loose or corroded, preventing proper charging.
+Recommended Actions:
+
+Check Battery: Inspect the battery for low charge or visible damage. Clean the terminals if needed.
+Inspect Alternator: If the battery is fine, have the alternator tested for faults.
+Consult a Mechanic: Get professional help if the issue persists to avoid being stranded."
+seatbelt.png,3,"Seatbelt Warning
+Description:
+The ""Seatbelt"" warning light indicates that one or more seatbelts are not fastened.
+
+Possible Causes:
+
+Seatbelt not securely fastened.
+Faulty seatbelt sensor.
+Importance:
+Wearing seatbelts reduces injury risk in a collision, and is legally required in most areas.
+
+Actions:
+
+Ensure all seatbelts are securely fastened.
+Check for any obstructions in the buckle.
+If the warning persists, have the sensor checked."
+ABS.png,4,"ABS Warning
+Description:
+The ""ABS"" warning light signals a problem with the Anti-lock Braking System, which prevents the wheels from locking during hard braking.
+
+Possible Causes:
+
+Faulty ABS sensor.
+Issues with the ABS module or wiring.
+Low brake fluid levels.
+Recommended Actions:
+
+Drive Cautiously: Your brakes will still work, but the ABS function may be disabled, making hard braking less effective.
+Seek Professional Help: Have the ABS system inspected by a mechanic immediately."
+fule.png,5,"Fuel Warning
+Description:
+The ""Fuel"" warning light indicates that your fuel level is low.
+
+Action:
+Refuel your vehicle as soon as possible to avoid running out of fuel."
+tire_pressure_monitoring.png,6,"Tire Pressure Warning
+Description:
+The ""Tire Pressure"" warning light indicates that one or more tires have low pressure.
+
+Action:
+Inflate the tires to the recommended pressure level to ensure safe driving and improve fuel efficiency."
+airbag.png,7,"Airbag Warning
+Description:
+The ""Airbag"" warning light signals an issue with the airbag system, which may prevent airbags from deploying in an accident.
+
+Action:
+Contact a professional immediately to inspect and repair the airbag system to ensure passenger safety."
+coolant.png,8,"Coolant Warning
+Description:
+The ""Coolant"" warning light indicates that the engine's coolant temperature is too high.
+
+Action:
+Stop the vehicle immediately and check coolant levels. Allow the engine to cool before refilling if necessary. Seek professional help if the issue persists to avoid engine damage."
+doar.png,9,"Door Open Warning
+Description:
+The ""Door Open"" warning light indicates that one or more doors are not fully closed.
+
+Action:
+Check and ensure all doors are securely closed before driving to avoid safety risks."

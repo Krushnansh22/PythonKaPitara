@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Car Dashboard</title>
+  <!-- Bootstrap CSS for responsive layout (optional) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="d-flex justify-content-between align-items-center p-3">
+    <!-- Animated Text -->
+    <div class="animated-text">
+      <h2>🚗 Smart Dashboard</h2>
+    </div>
+    <!-- Mode Switcher -->
+    <div class="mode-switcher">
+      <label class="switch">
+        <input type="checkbox" id="modeToggle">
+        <span class="slider round"></span>
+      </label>
+      <span id="modeLabel">Dark Mode</span>
+    </div>
+  </header>
+
+  <!-- Main Dashboard Container -->
+  <main class="container-fluid dashboard-container">
+    <div class="row justify-content-center align-items-center">
+      <!-- Speedometer -->
+      <div class="col-md-4 d-flex justify-content-center"> 
+        <canvas id="speedometer" width="300" height="300"></canvas>
+        <img src="speedometer.png" alt="Speedometer Image" width="300" height="300">
+      </div>
+
+      <!-- Warning Lights -->
+      <div class="col-md-4">
+        <div class="warning-lights-grid">
+          <!-- Existing Warning Lights -->
+          <div class="warning-light" data-tooltip="Check Engine">
+            <img src="images/engine.png" alt="Check Engine Warning" class="warning-icon">
+          </div>
+          <div class="warning-light" data-tooltip="Low Fuel">
+            <img src="images/fuel.png" alt="Low Fuel Warning" class="warning-icon">
+          </div>
+          <div class="warning-light" data-tooltip="Oil Pressure">
+            <img src="images/low_oil_pressure.png" alt="Oil Pressure Warning" class="warning-icon">
+          </div>
+          <div class="warning-light" data-tooltip="Battery">
+            <img src="images/battery.png" alt="Battery Warning" class="warning-icon">
+          </div>
+          <div class="warning-light" data-tooltip="Tire Pressure">
+            <img src="images/tire_pressure.png" alt="Tire Pressure Warning" class="warning-icon">
+          </div>
+          <!-- New Warning Lights -->
+          <div class="warning-light" data-tooltip="Coolant">
+            <img src="images/coolant.png" alt="Coolant Warning" class="warning-icon">
+          </div>
+          <div class="warning-light" data-tooltip="Airbag">
+            <img src="images/airbag.png" alt="Airbag Warning" class="warning-icon">
+          </div>
+          <div class="warning-light" data-tooltip="ABS">
+            <img src="images/abs.png" alt="ABS Warning" class="warning-icon">
+          </div>
+          <div class="warning-light" data-tooltip="APC">
+            <img src="images/epc.png" alt="EPC Warning" class="warning-icon">
+          </div>
+          <div class="warning-light" data-tooltip="Door">
+            <img src="images/door.png" alt="Door open Warning" class="warning-icon">
+          </div>
+        </div>
+      </div>
+
+      <!-- RPM Meter -->
+      <div class="col-md-4 d-flex justify-content-center">
+        <canvas id="rpmMeter" width="300" height="300"></canvas>
+        <img src="rpm.png" alt="RPM Meter Image" width="300" height="300">
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer with Branding -->
+  <footer class="text-center p-3">
+    <p>&copy; 2024 YourCompanyName</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Chart.js for Meters -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
